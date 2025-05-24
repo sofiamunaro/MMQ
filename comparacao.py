@@ -11,7 +11,6 @@ n = 2*m + 1
 diagonal = np.full(n, np.pi)
 diagonal[0] = 2 * np.pi
 matriz = np.diag(diagonal)
-print(matriz)
 coeficientes = [0]
 for i in range(1,m+1):
     coeficientes.append(0)

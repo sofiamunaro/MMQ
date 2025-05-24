@@ -6,7 +6,7 @@ x = np.linspace(0, 2*np.pi, 1000)
 f = np.where((x >= 0) & (x <= np.pi), 1, -1)
 
 #função aproximação
-m = 30 #inserar 'grau' do polinomio
+m = 30 #inserir 'grau' do polinomio
 n = 2*m + 1
 diagonal = np.full(n, np.pi)
 diagonal[0] = 2 * np.pi
